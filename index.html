@@ -16,7 +16,7 @@
     <!-- line 1 -->
     <div>
     <input type="button" value="AC"onclick="Display.value =''" class="operator">
-    <!-- here we will do       because here we will delete only One Number -->
+    <!-- here we will do {.toString().slice(0,-1) } because here we will delete only One Number -->
     <input type="button" value="DE"onclick="Display.value = Display.value.toString().slice(0,-1)"class="operator">
     <input type="button" value="."onclick="Display.value +='.'"class="operator">
     <input type="button" value="/"onclick="Display.value +='/'"class="operator">
